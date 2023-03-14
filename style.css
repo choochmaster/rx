@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7C4DFF;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app {
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 6px 11px 23px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 6px 11px 23px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 11px 23px 0px rgba(0, 0, 0, 0.3);
+}
+
+.profile-bar {
+  padding: 15px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.profile-bar .profile {
+  display: flex;
+}
+.profile-bar .profile .profile-image img {
+  width: 40px;
+  border-radius: 100%;
+}
+.profile-bar .profile .profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.profile-bar .profile .profile-info .name {
+  font-weight: 700;
+}
+.profile-bar .profile .profile-info .title {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+.profile-bar .message {
+  height: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  color: #D32F2F;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.main .section-title {
+  font-weight: 800;
+  color: #575656;
+}
+.main .banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(0.35turn, #D32F2F, #D50000);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  height: 180px;
+  text-align: left;
+}
+.main .banner .banner-text h3 {
+  font-weight: 600;
+  font-size: 2em;
+}
+.main .banner .banner-text p {
+  margin-top: 20px;
+  line-height: 20px;
+}
+.main .category {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.main .category-menu {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  text-align: center;
+}
+.main .category-item {
+  display: flex;
+  flex-direction: column;
+}
+.main .category-item .icon {
+  background: #D32F2F;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+}
+.main .category-item .category-name {
+  margin-top: 10px;
+  color: #575656;
+  font-weight: 600;
+}
+.main .doctors {
+  margin-top: 25px;
+}
+.main .doctors .doctor-list {
+  display: flex;
+  flex-direction: column;
+}
+.main .doctors .doctor-list .doctor {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .doctors .doctor-list .doctor .info {
+  display: flex;
+  align-items: center;
+}
+.main .doctors .doctor-list .doctor .info .doctor-name {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.main .doctors .doctor-list .doctor .info .doctor-title {
+  margin-left: 10px;
+  color: gray;
+}
+.main .doctors .doctor-list .doctor img {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+.main .doctors .doctor-list .doctor .stars {
+  display: flex;
+  color: #FFC107;
+}
+.main .doctors .doctor-list .doctor .stars p {
+  color: #000;
+  font-weight: 800;
+}
